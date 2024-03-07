@@ -30,9 +30,9 @@ function TextForm(props) {
         <div className="container mb-3">
         <textarea className='form-control' value={text} onChange={onchangehandle} style={{backgroundColor: props.mode === "dark"?"#283141":"#F2F3F9",color:props.mode==="dark"?"white":"black"}} id="myBox" rows="8" > </textarea>
         </div>
-        <button className='btn btn-primary mx-2' onClick={handleupcase}>convert to upper case</button>
-        <button className='btn btn-primary mx-2' onClick={handlelocase}>convert to lower case</button>
-        <button className='btn btn-primary mx-2' onClick={handleclear}>clear it</button>
+        <button className='btn btn-primary mx-2,my-2' onClick={handleupcase}>convert to upper case</button>
+        <button className='btn btn-primary mx-2,my-2' onClick={handlelocase}>convert to lower case</button>
+        <button className='btn btn-primary mx-2,my-2' onClick={handleclear}>clear it</button>
     
          
         <div className="container my-3" style={{color: props.mode === "light"?"black":"white"}}>
